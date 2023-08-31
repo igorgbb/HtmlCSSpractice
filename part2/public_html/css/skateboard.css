@@ -1,34 +1,35 @@
 /* Author: Igor Bernardon
 Class: CSC 337
 Professor: Benjamin Dicken
-Purpose: This css document is used to style the index.html file
+Purpose: This css document is used to style the skateboard.html file
 by using differend colors, padding, and fonts to match the theme of the page */
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 0);
 }
 
 .title-section {
-    font-family:'Courier New', Courier, monospace;
-    background-color: #4CAF50;
-    color: rgb(187, 0, 0);
+    font-family: fantasy;
+    background-color: #7c1d00;
+    color: rgb(255, 240, 228);
     text-align: center;
     padding: 20px;
 }
 
 .nav-section {
-    background-color: #007ec7;
+    background-color: yellow;
     text-align: center;
     padding: 30px;
 }
 
 .nav-section a {
     font-size: large;
-    background-color: #4CAF50;
-    color: rgb(255, 238, 0);
+    font-family: cursive;
+    background-color: brown;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 8px 16px;
     margin: 5px;
@@ -37,7 +38,7 @@ body {
 
 .content-section {
     padding: 20px;
-    background-color:aquamarine;
+    background-color: rgb(0, 53, 13);
 }
 
 .content-section img {
@@ -45,15 +46,16 @@ body {
     height: auto;
     display: block;
     margin: 20px auto;
-    border-style: dashed;
-    border-radius: 100px;
-    border-color: burlywood;
+    border-style: solid;
+    border-radius: 90px;
+    border-color: rgb(100, 0, 0);
 }
 
 .content-section p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: serif;
     outline-style: dashed;
-    outline-color: rgb(75, 115, 128);
+    outline-color: rgb(255, 255, 0);
+    color: beige;
 }
 
 table {
@@ -62,14 +64,18 @@ table {
     margin-top: 20px;
 }
 
-table, th, td {
-    border: 1px #ccc;
+table,
+th,
+td {
+    border: 1px #00ff22;
     padding: 8px;
-    border-style: dashed;
+    border-style: double;
     border-width: 5px;
     text-align: left;
+    color: rgb(255, 0, 0)
 }
 
 th {
-    background-color: #389fff75;
+    background-color: #ff000075;
+    color: white;
 }
